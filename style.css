@@ -1,0 +1,42 @@
+body {
+    flex-wrap: wrap;
+   
+    
+   
+}
+
+
+.surround {
+    position: fixed;
+    height: 80%;
+    width: 80%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 2.5%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+main,  {
+    display: flex;
+    justify-content: center;
+   
+}
+.before, .after, .main {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main {
+    justify-content: center;
+    margin: auto;
+}
+.before, .after {
+    font-size: 48px;
+}
